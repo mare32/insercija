@@ -17,7 +17,7 @@ body {
 
 a { transition: all 0.3s ease; }
 a:hover, a:focus, a.active {
-    color: #58d5ff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -298,7 +298,6 @@ figure.effect-sadie:hover p {
 .tm-bg-pink-light-2 { background-color: #EDAABC; }
 .tm-bg-blue { background-color: #6699cc; }
 .tm-bg-light-green {background-color:#6fda81}
-
 .media-boxes {
     max-width: 930px;
     margin: 0 auto;
@@ -333,6 +332,12 @@ figure.effect-sadie:hover p {
     color: white;
 }
 
+.tm-bg-light-green.tm-buy:hover,
+.tm-bg-light-green.tm-buy:focus {
+    background-color: #40d659;
+    color: white;
+}
+
 .tm-description-box { padding: 30px 35px; }
 
 .tm-price-tag {
@@ -357,11 +362,11 @@ figure.effect-sadie:hover p {
     width: 350px;
     margin-bottom: 25px;
     border-radius: 0;
-    border-color: #D6688F;
+    border-color: #1C689A;
     padding: 13px 15px;
 }
 
-.form-control.tm-subscribe-input:focus { border-color: #df6f98; }
+.form-control.tm-subscribe-input:focus { border-color: #1C689A; }
 
 .tm-subscribe-btn {
     border: none;
@@ -374,7 +379,7 @@ figure.effect-sadie:hover p {
 
 .tm-subscribe-btn:hover,
 .tm-subscribe-focus {
-    background-color: #d14579;
+    background-color: #40d659;
 }
 
 .tm-subscribe-img {
@@ -460,7 +465,7 @@ figure.effect-sadie:hover p {
 }
 
 .btn-secondary {
-    background-color: #33CCFF;
+    background-color: #006699;
     border-color: #33CCFF;
     font-size: 1.1rem;
     padding: 12px 40px;
@@ -483,7 +488,7 @@ figure.effect-sadie:hover p {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:hover {
-    background-color: #EDAABC;
+    background-color: #1C689A;
     color: white;
 }
 
